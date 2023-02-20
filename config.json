@@ -21,19 +21,19 @@
                       "dest":3001
                   },
                   {
-                      "path":"/$id-vless",
+                      "path":"/f73a842d-0bc9-4dec-ae87-4c8bf9c371f7-vless",
                       "dest":3002
                   },
                   {
-                      "path":"/$id-vmess",
+                      "path":"/f73a842d-0bc9-4dec-ae87-4c8bf9c371f7-vmess",
                       "dest":3003
                   },
                   {
-                      "path":"/$id-trojan",
+                      "path":"/f73a842d-0bc9-4dec-ae87-4c8bf9c371f7-trojan",
                       "dest":3004
                   },
                   {
-                      "path":"/$id-shadowsocks",
+                      "path":"/f73a842d-0bc9-4dec-ae87-4c8bf9c371f7-shadowsocks",
                       "dest":3005
                   }
               ]
@@ -77,7 +77,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/$id-vless"
+                  "path":"/f73a842d-0bc9-4dec-ae87-4c8bf9c371f7vless"
               }
           },
           "sniffing":{
@@ -105,7 +105,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/$id-vmess"
+                  "path":"/f73a842d-0bc9-4dec-ae87-4c8bf9c371f7-vmess"
               }
           },
           "sniffing":{
@@ -133,7 +133,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/$id-trojan"
+                  "path":"/f73a842d-0bc9-4dec-ae87-4c8bf9c371f7-trojan"
               }
           },
           "sniffing":{
@@ -162,7 +162,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/$id-shadowsocks"
+                  "path":"/f73a842d-0bc9-4dec-ae87-4c8bf9c371f7-shadowsocks"
               }
           },
           "sniffing":{
