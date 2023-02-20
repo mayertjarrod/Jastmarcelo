@@ -21,19 +21,19 @@
                       "dest":3001
                   },
                   {
-                      "path":"/id-vless",
+                      "path":"/$id-vless",
                       "dest":3002
                   },
                   {
-                      "path":"/id-vmess",
+                      "path":"/$id-vmess",
                       "dest":3003
                   },
                   {
-                      "path":"/id-trojan",
+                      "path":"/$id-trojan",
                       "dest":3004
                   },
                   {
-                      "path":"/id-shadowsocks",
+                      "path":"/$id-shadowsocks",
                       "dest":3005
                   }
               ]
@@ -77,7 +77,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/id-vless"
+                  "path":"/$id-vless"
               }
           },
           "sniffing":{
@@ -105,7 +105,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/id-vmess"
+                  "path":"/$id-vmess"
               }
           },
           "sniffing":{
@@ -133,7 +133,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/id-trojan"
+                  "path":"/$id-trojan"
               }
           },
           "sniffing":{
@@ -162,7 +162,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/id-shadowsocks"
+                  "path":"/$id-shadowsocks"
               }
           },
           "sniffing":{
